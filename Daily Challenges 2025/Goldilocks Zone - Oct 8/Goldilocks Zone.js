@@ -1,7 +1,7 @@
 /*
 Challenge details
 
-Date: October 10, 2025
+Date: October 8, 2025
 Name: Space Week Day 5: Goldilocks Zone
 Link: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-10-08
 */
