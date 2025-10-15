@@ -15,4 +15,4 @@ function stripTags(html) {
   return string.join("");
 }
 
-console.log(stripTags('<a href="#">Click here</a>'));
+console.log(stripTags('<p class="center">Hello <b>World</b>!</p>'));

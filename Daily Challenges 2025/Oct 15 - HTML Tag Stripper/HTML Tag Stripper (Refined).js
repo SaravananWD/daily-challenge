@@ -16,3 +16,4 @@ function stripTags(html) {
 
   return result.join("");
 }
+console.log(stripTags('<p class="center">Hello <b>World</b>!</p>'));
