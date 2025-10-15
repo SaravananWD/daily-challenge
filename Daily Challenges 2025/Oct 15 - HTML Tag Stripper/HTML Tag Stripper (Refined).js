@@ -1,3 +1,11 @@
+/*
+Challenge #21
+
+Date: October 15, 2025
+Name: HTML Tag Stripper
+Link: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-10-15
+*/
+
 function stripTags(html) {
   const result = [];
   let insideTag = false;
