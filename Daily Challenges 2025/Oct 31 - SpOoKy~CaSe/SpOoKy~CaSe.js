@@ -1,22 +1,26 @@
+/*
+Challenge #37
+
+Date: October 31, 2025
+Name: SpOoKy~CaSe
+Link: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-10-31
+*/
+
 function spookify(boo) {
   let newData = boo.replace(/[_-]/g, "~");
-  // - = ~
-  // _ = ~
 
   const newArr = newData.split("");
 
-  // Replaced with tilde character
-  // Converted to array
-  // Uppercase only the even letters
-
   let count = 0;
   for (let i = 0; i < newArr.length; i++) {
-    newArr[i] = newArr[i].toLowerCase();
     const char = newArr[i];
+    newArr[i] = char.toLowerCase();
 
     if (char !== "~") {
+      if (count % 2 === 0) {
+        newArr[i] = char.toUpperCase();
+      }
       count++;
-      newArr[i] = char.toUpperCase();
     }
   }
 
@@ -24,21 +28,3 @@ function spookify(boo) {
 }
 
 console.log(spookify("TRICK-or-TREAT"));
-
-//TrIcK~oR~tReAt
-
-/*
-
-
-  for (let i = 0; i < newArr.length; i++) {
-    newArr[i] = newArr[i].toLowerCase();
-    if (newArr[i] !== "~") {
-      if (count % 2 === 0) {
-        newArr[i] = newArr[i].toUpperCase();
-      }
-      count++;
-    }
-  }
-
-
-  */
