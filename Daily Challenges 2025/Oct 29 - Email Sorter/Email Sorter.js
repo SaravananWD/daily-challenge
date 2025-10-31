@@ -1,3 +1,11 @@
+/*
+Challenge #35
+
+Date: October 29, 2025
+Name: Email Sorter
+Link: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-10-29
+*/
+
 function sort(emails) {
   const getDomain = (email) => {
     const indexOfAt = email.indexOf("@");
