@@ -1,3 +1,11 @@
+/*
+Challenge #46
+
+Date: November 9, 2025
+Name: Word Search
+Link: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-11-09
+*/
+
 function findWord(matrix, word) {
   const len = word.length - 1;
 
