@@ -9,3 +9,8 @@ const reverseArrayItems = [1, 2, 3].reverse(); // [3, 2, 1]
 const absoluteNumber = Math.abs(-4); // 4
 
 const replaceString = "ABC".replace("AB", "12"); // "12C"
+
+const isInclude = [1, 2, 3, 4].includes(2); // true
+
+const roundDown = Math.floor(2.6); // 2
+// returns the largest integer less than or equal to a given number
