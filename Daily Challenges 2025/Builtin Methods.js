@@ -14,3 +14,6 @@ const isInclude = [1, 2, 3, 4].includes(2); // true
 
 const roundDown = Math.floor(2.6); // 2
 // returns the largest integer less than or equal to a given number
+
+const fixDecimals = (23.247).toFixed(2); // 23.25
+// will add zeroes when no decimals and rounds up last digit
