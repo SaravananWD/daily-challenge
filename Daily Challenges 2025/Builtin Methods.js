@@ -19,3 +19,7 @@ const fixDecimals = (23.247).toFixed(2); // 23.25
 // will add zeroes when no decimals and rounds up last digit
 
 const trimSpaces = " hello world  ".trim(); // "hello world"
+
+const upperCase = "a".toUpperCase(); // "A"
+
+const charCode = "A".charCodeAt(0); // 65
