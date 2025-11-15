@@ -23,3 +23,14 @@ const trimSpaces = " hello world  ".trim(); // "hello world"
 const upperCase = "a".toUpperCase(); // "A"
 
 const charCode = "A".charCodeAt(0); // 65
+
+const sort = ["C", "A", "B"].sort((a, b) =>
+  a.localeCompare(b, undefined, { sensitivity: "base" })
+); // ['A', 'B', 'C']
+
+const dayIndex = new Date("2025-11-14").getUTCDay();
+// 5 (Because 14 falls on Friday which is 5th weekday)
+
+const maxNum = Math.max(3, 5); // 5
+
+const minNum = Math.min(3, 5); // 3
