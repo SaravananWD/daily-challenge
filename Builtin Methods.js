@@ -34,3 +34,13 @@ const dayIndex = new Date("2025-11-14").getUTCDay();
 const maxNum = Math.max(3, 5); // 5
 
 const minNum = Math.min(3, 5); // 3
+
+const roundUp = Math.ceil(2.3); // 3
+
+const slice = ["A", "B", "C", "D"].slice(0, 2); // ['A', 'B']
+
+const split = "Hello world!".split(" "); // ['Hello', 'world!']
+
+const join = ["Hello", "world!"].join(" "); // "Hello world!"
+
+console.log(join);

@@ -16,4 +16,4 @@ function convert(heading) {
   return `<h${hashes.length}>${text}</h${hashes.length}>`;
 }
 
-console.log(convert("# My"));
+console.log(convert("# My Heading Text"));
