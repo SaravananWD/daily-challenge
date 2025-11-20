@@ -43,4 +43,4 @@ const split = "Hello world!".split(" "); // ['Hello', 'world!']
 
 const join = ["Hello", "world!"].join(" "); // "Hello world!"
 
-console.log(join);
+const reduce = [1, 2, 3].reduce((sum, num) => sum + num, 0); // 6
