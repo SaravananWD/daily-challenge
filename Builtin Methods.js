@@ -44,3 +44,9 @@ const split = "Hello world!".split(" "); // ['Hello', 'world!']
 const join = ["Hello", "world!"].join(" "); // "Hello world!"
 
 const reduce = [1, 2, 3].reduce((sum, num) => sum + num, 0); // 6
+
+const localeCompare = "a".localeCompare("c"); // -1
+
+const testRegex = /[a-z]/i.test("7"); // false
+
+const entries = Object.entries({ a: 1, b: 2 }); // [["a", 1], ["b",2]]
