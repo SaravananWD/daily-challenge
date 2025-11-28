@@ -1,7 +1,7 @@
 /*
 Challenge #85
 
-Date: September 7, 2025
+Date: September 6, 2025
 Name: Matrix Rotate
 Link: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-06
 */
