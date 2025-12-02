@@ -50,3 +50,8 @@ const localeCompare = "a".localeCompare("c"); // -1
 const testRegex = /[a-z]/i.test("7"); // false
 
 const entries = Object.entries({ a: 1, b: 2 }); // [["a", 1], ["b",2]]
+
+const replaceWithCallback = "Hello_Strange_World!".replace(
+  /_[A-Z]/g,
+  (match) => " " + match.slice(1).toLowerCase()
+); // "Hello strange world!"
