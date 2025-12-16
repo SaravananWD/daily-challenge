@@ -10,3 +10,6 @@ const total = obj.reduce((acc, item) => {
   }
   return acc;
 }, {});
+
+console.log(total);
+// {apple: 6, orange: 3, banana: 9, grapes: 3}
