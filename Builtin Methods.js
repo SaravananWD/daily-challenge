@@ -25,7 +25,7 @@ const upperCase = "a".toUpperCase(); // "A"
 const charCode = "A".charCodeAt(0); // 65
 
 const sort = ["C", "A", "B"].sort((a, b) =>
-  a.localeCompare(b, undefined, { sensitivity: "base" })
+  a.localeCompare(b, undefined, { sensitivity: "base" }),
 ); // ['A', 'B', 'C']
 
 const dayIndex = new Date("2025-11-14").getUTCDay();
@@ -53,5 +53,5 @@ const entries = Object.entries({ a: 1, b: 2 }); // [["a", 1], ["b",2]]
 
 const replaceWithCallback = "Hello_Strange_World!".replace(
   /_[A-Z]/g,
-  (match) => " " + match.slice(1).toLowerCase()
+  (match) => " " + match.slice(1).toLowerCase(),
 ); // "Hello strange world!"

@@ -8,3 +8,8 @@ const request = new Promise((resolve, reject) => {
 });
 
 request.then((result) => console.log(result)).catch((err) => console.log(err));
+
+// const p1 = Promise.resolve(1);
+// const p2 = Promise.resolve(2);
+
+// Promise.any([p1, p2]).then((r) => console.log(JSON.stringify(r)));
